@@ -1,7 +1,7 @@
 import { collection } from "./collection";
 import useState from "react";
 
-export const collection = () => {
+export default () => {
   const [books, setBooks] = useState(0);
 
   const borrowBook = () => {
